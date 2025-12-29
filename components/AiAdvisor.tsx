@@ -1,7 +1,9 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { MessageCircle, Send, X, User } from 'lucide-react';
-import { getConsultationResponse } from '../services/geminiService';
-import { ChatMessage } from '../types';
+'use client'
+
+import React, { useState, useRef, useEffect } from 'react'
+import { MessageCircle, Send, X, User } from 'lucide-react'
+import { getConsultationResponse } from '../lib/aiService'
+import { ChatMessage } from '../lib/types'
 
 interface AiAdvisorProps {
   toolsContext: string;
@@ -145,4 +147,4 @@ const AiAdvisor: React.FC<AiAdvisorProps> = ({ toolsContext }) => {
   );
 };
 
-export default AiAdvisor;
+export default AiAdvisor

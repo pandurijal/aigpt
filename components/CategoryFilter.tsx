@@ -1,6 +1,8 @@
-import React from 'react';
-import { Category } from '../types';
-import { Link } from 'react-router-dom';
+'use client'
+
+import React from 'react'
+import { Category } from '../lib/types'
+import Link from 'next/link'
 
 interface CategoryFilterProps {
   currentCategory: string;
@@ -11,7 +13,7 @@ const CategoryFilter: React.FC<CategoryFilterProps> = ({ currentCategory }) => {
     <div className="w-full overflow-x-auto pb-6 no-scrollbar">
       <div className="flex items-center gap-3 min-w-max">
         <Link
-            to="/"
+            href="/"
             className={`px-6 py-2.5 text-sm font-medium transition-all duration-200 border-b-2 ${
               currentCategory === 'Semua'
                 ? 'border-neutral-900 text-neutral-900 bg-transparent'
@@ -23,7 +25,7 @@ const CategoryFilter: React.FC<CategoryFilterProps> = ({ currentCategory }) => {
         {Object.values(Category).filter(c => c !== Category.ALL).map((cat) => (
           <Link
             key={cat}
-            to={`/category/${cat.toLowerCase().replace(/\s+/g, '-')}`}
+            href={`/category/${cat.toLowerCase().replace(/\s+/g, '-')}`}
             className={`px-6 py-2.5 text-sm font-medium transition-all duration-200 border-b-2 ${
               currentCategory === cat.toLowerCase().replace(/\s+/g, '-')
                 ? 'border-neutral-900 text-neutral-900 bg-transparent'
@@ -38,4 +40,4 @@ const CategoryFilter: React.FC<CategoryFilterProps> = ({ currentCategory }) => {
   );
 };
 
-export default CategoryFilter;
+export default CategoryFilter

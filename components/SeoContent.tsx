@@ -1,4 +1,6 @@
-import React from 'react';
+'use client'
+
+import React from 'react'
 
 const SeoContent: React.FC = () => {
   return (
@@ -61,4 +63,4 @@ const SeoContent: React.FC = () => {
   );
 };
 
-export default SeoContent;
+export default SeoContent

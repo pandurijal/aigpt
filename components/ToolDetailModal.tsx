@@ -1,6 +1,8 @@
-import React from 'react';
-import { Tool } from '../types';
-import { X, Check, ArrowUpRight } from 'lucide-react';
+'use client'
+
+import React from 'react'
+import { Tool } from '../lib/types'
+import { X, Check, ArrowUpRight } from 'lucide-react'
 
 interface ToolDetailModalProps {
   tool: Tool | null;
@@ -77,4 +79,4 @@ const ToolDetailModal: React.FC<ToolDetailModalProps> = ({ tool, onClose }) => {
   );
 };
 
-export default ToolDetailModal;
+export default ToolDetailModal

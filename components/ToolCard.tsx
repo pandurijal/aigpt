@@ -1,7 +1,9 @@
-import React from 'react';
-import { Tool } from '../types';
-import { ArrowUpRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
+'use client'
+
+import React from 'react'
+import { Tool } from '../lib/types'
+import { ArrowUpRight } from 'lucide-react'
+import Link from 'next/link'
 
 interface ToolCardProps {
   tool: Tool;
@@ -9,8 +11,8 @@ interface ToolCardProps {
 
 const ToolCard: React.FC<ToolCardProps> = ({ tool }) => {
   return (
-    <Link 
-      to={`/tool/${tool.id}`}
+    <Link
+      href={`/tool/${tool.id}`}
       className="group relative bg-white border border-neutral-200 hover:border-neutral-300 transition-all duration-300 flex flex-col cursor-pointer hover:shadow-card-hover"
     >
       <div className="p-6 pb-0">
@@ -53,4 +55,4 @@ const ToolCard: React.FC<ToolCardProps> = ({ tool }) => {
   );
 };
 
-export default ToolCard;
+export default ToolCard

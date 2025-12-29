@@ -1,5 +1,7 @@
-import React from 'react';
-import { ArrowDownRight } from 'lucide-react';
+'use client'
+
+import React from 'react'
+import { ArrowDownRight } from 'lucide-react'
 
 const Hero: React.FC = () => {
   return (
@@ -43,4 +45,4 @@ const Hero: React.FC = () => {
   );
 };
 
-export default Hero;
+export default Hero
