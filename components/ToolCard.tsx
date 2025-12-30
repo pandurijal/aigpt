@@ -10,10 +10,25 @@ interface ToolCardProps {
 }
 
 const ToolCard: React.FC<ToolCardProps> = ({ tool }) => {
+  // Map tool IDs to actual routes
+  const getToolRoute = (id: string) => {
+    switch (id) {
+      case 'destination-finder':
+        return '/destination-finder'
+      case 'trip-planner':
+      case 'budget-calculator':
+      default:
+        return '#' // Coming soon tools
+    }
+  }
+
+  const route = getToolRoute(tool.id)
+  const isComingSoon = route === '#'
+
   return (
     <Link
-      href={`/tool/${tool.id}`}
-      className="group relative bg-white border border-neutral-200 hover:border-neutral-300 transition-all duration-300 flex flex-col cursor-pointer hover:shadow-card-hover"
+      href={route}
+      className={`group relative bg-white border border-neutral-200 hover:border-neutral-300 transition-all duration-300 flex flex-col cursor-pointer hover:shadow-card-hover ${isComingSoon ? 'opacity-60 pointer-events-none' : ''}`}
     >
       <div className="p-6 pb-0">
         <div className="flex justify-between items-start mb-4">

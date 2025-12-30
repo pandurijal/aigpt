@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'aigpt.id - Direktori Tools AI Bisnis',
-  description: 'Temukan generator itinerary, analisa keuangan, dan alat bantu HR berbasis AI. Solusi produktivitas cerdas untuk kebutuhan profesional.',
+  title: 'aigpt.id - AI Travel Planning Tools',
+  description: 'Temukan destinasi wisata impian dengan AI. Dapatkan rekomendasi destinasi, breakdown biaya detail, itinerary harian, dan tips perjalanan berdasarkan budget dan preferensi Anda.',
 }
 
 export default function RootLayout({

@@ -1,0 +1,228 @@
+{
+  "recommendations": [
+    {
+      "destination": "Bali",
+      "country": "Indonesia",
+      "description": "Pulau dewata dengan pantai eksotis, budaya Hindu yang kaya, pura-pura bersejarah, dan pemandangan sawah terasering yang ikonik. Cocok untuk perjalanan santai dengan sentuhan spiritual dan kuliner.",
+      "estimatedCost": {
+        "flights": 3000000,
+        "accommodation": 3500000,
+        "food": 2000000,
+        "activities": 1500000,
+        "total": 10000000
+      },
+      "highlights": [
+        "Pantai Seminyak & Nusa Dua dengan sunset memukau",
+        "Pura Tanah Lot & Uluwatu yang ikonik",
+        "Sawah terasering Tegalalang & Jatiluwih",
+        "Kuliner tradisional dan modern yang beragam",
+        "Spa dan wellness dengan harga terjangkau"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "activities": [
+            "Tiba di Ngurah Rai Airport, check-in hotel di area Seminyak",
+            "Jalan-jalan di Pantai Seminyak untuk sunset",
+            "Makan malam di La Plancha atau Potato Head Beach Club"
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Kunjungi Pura Tanah Lot pagi hari",
+            "Eksplorasi sawah terasering Tegalalang & swing",
+            "Kopi luwak tasting di perkebunan kopi",
+            "Makan malam di Ubud (Locavore atau Bebek Bengil)"
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Snorkeling atau diving di Nusa Penida/Nusa Lembongan",
+            "Jelajahi Angel's Billabong & Kelingking Beach",
+            "Kembali ke hotel untuk istirahat"
+          ]
+        },
+        {
+          "day": 4,
+          "activities": [
+            "Kunjungi Pura Uluwatu & tonton Kecak Dance saat sunset",
+            "Makan seafood di Jimbaran Beach",
+            "Shopping di Beachwalk Mall atau Seminyak Square"
+          ]
+        },
+        {
+          "day": 5,
+          "activities": [
+            "Check-out hotel, spa atau massage terakhir",
+            "Belanja oleh-oleh di Krisna atau pasar seni",
+            "Transfer ke bandara untuk penerbangan pulang"
+          ]
+        }
+      ],
+      "bestTimeToVisit": "April - Oktober (musim kemarau) dengan cuaca cerah dan minim hujan. Hindari Juli-Agustus jika ingin menghindari keramaian.",
+      "tips": [
+        "Sewa motor (150k/hari) atau mobil + driver (500k/hari) untuk mobilitas",
+        "Download Gojek/Grab untuk transportasi dalam kota",
+        "Bawa cash IDR untuk warung dan pasar tradisional",
+        "Gunakan sunscreen SPF 50+ dan topi untuk perlindungan matahari",
+        "Book hotel 2-3 bulan sebelumnya untuk harga terbaik",
+        "Coba warung lokal untuk makan lebih murah dan autentik"
+      ]
+    },
+    {
+      "destination": "Bangkok",
+      "country": "Thailand",
+      "description": "Kota metropolitan yang menggabungkan kuil Buddha bersejarah dengan mall modern dan street food kelas dunia. Surga belanja dan kuliner dengan budget friendly.",
+      "estimatedCost": {
+        "flights": 3500000,
+        "accommodation": 2500000,
+        "food": 1500000,
+        "activities": 2000000,
+        "total": 9500000
+      },
+      "highlights": [
+        "Grand Palace & Wat Phra Kaew yang megah",
+        "Pasar apung Damnoen Saduak & pasar malam",
+        "Street food legendaris di Yaowarat (Chinatown)",
+        "Shopping di MBK, Siam Paragon, Chatuchak Weekend Market",
+        "Rooftop bars dengan city view spektakuler"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "activities": [
+            "Tiba di Suvarnabhumi Airport, naik Airport Rail Link ke pusat kota",
+            "Check-in hotel di area Sukhumvit atau Siam",
+            "Jalan-jalan di IconSiam Mall & Asiatique The Riverfront",
+            "Makan malam di restoran pinggir Chao Phraya River"
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Kunjungi Grand Palace & Wat Phra Kaew (pagi hari sebelum panas)",
+            "Naik long-tail boat menyusuri Chao Phraya River",
+            "Kunjungi Wat Arun (Temple of Dawn)",
+            "Street food tour di Yaowarat Chinatown malam hari"
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Day trip ke Ayutthaya Historical Park (UNESCO site)",
+            "Jelajahi reruntuhan kuil kuno & istana kerajaan",
+            "Naik sepeda mengelilingi kompleks candi",
+            "Kembali ke Bangkok untuk dinner di Rot Fai Night Market"
+          ]
+        },
+        {
+          "day": 4,
+          "activities": [
+            "Shopping di Chatuchak Weekend Market (Sabtu-Minggu)",
+            "Alternatif: MBK Center, Siam Paragon, Platinum Fashion Mall",
+            "Spa atau Thai massage tradisional",
+            "Rooftop bar experience di Sky Bar atau Octave Lounge"
+          ]
+        },
+        {
+          "day": 5,
+          "activities": [
+            "Kunjungi Jim Thompson House Museum",
+            "Last minute shopping di Terminal 21 atau Central World",
+            "Thai cooking class (optional)",
+            "Transfer ke bandara untuk penerbangan pulang"
+          ]
+        }
+      ],
+      "bestTimeToVisit": "November - Februari (musim dingin/sejuk) dengan suhu 25-30°C. Hindari Maret-Mei yang sangat panas (35-40°C).",
+      "tips": [
+        "Beli Rabbit Card untuk naik BTS/MRT lebih mudah dan murah",
+        "Download Grab untuk transportasi (lebih murah dari taxi)",
+        "Tukar uang di Super Rich (rate lebih bagus dari money changer biasa)",
+        "Dress code: tutupi bahu & lutut saat ke kuil",
+        "Bawa power bank, Bangkok panas dan banyak jalan kaki",
+        "Coba street food: Pad Thai, Som Tam, Mango Sticky Rice, Tom Yum",
+        "Minta bon/struk saat naik taxi meter untuk keamanan"
+      ]
+    },
+    {
+      "destination": "Tokyo",
+      "country": "Japan",
+      "description": "Metropolis futuristik yang memadukan teknologi canggih dengan tradisi Jepang kuno. Dari kuil Shinto hingga neon Shibuya, Tokyo menawarkan pengalaman unik di setiap sudutnya.",
+      "estimatedCost": {
+        "flights": 8000000,
+        "accommodation": 6000000,
+        "food": 4000000,
+        "activities": 3000000,
+        "total": 21000000
+      },
+      "highlights": [
+        "Shibuya Crossing & distrik Harajuku yang ikonik",
+        "Kuil Senso-ji di Asakusa & Tokyo Skytree",
+        "Tsukiji Outer Market untuk sushi & seafood segar",
+        "Akihabara (Electric Town) untuk otaku culture",
+        "Cherry blossom di musim semi atau fall foliage di musim gugur"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "activities": [
+            "Tiba di Narita/Haneda Airport, beli JR Pass & aktivasi",
+            "Check-in hotel di Shinjuku atau Shibuya",
+            "Eksplor Shibuya: Shibuya Crossing, Hachiko Statue, Shibuya 109",
+            "Makan malam ramen di Ichiran atau Ippudo"
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Kunjungi Meiji Shrine & Yoyogi Park pagi hari",
+            "Jalan-jalan di Harajuku: Takeshita Street, Cat Street, Omotesando",
+            "Shopping & makan di kawasan Omotesando Hills",
+            "Malam di Shinjuku: Golden Gai, Robot Restaurant, Omoide Yokocho"
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Eksplorasi Asakusa: Senso-ji Temple, Nakamise Shopping Street",
+            "Naik ke Tokyo Skytree observation deck (450m)",
+            "Lunch: sushi di Tsukiji Outer Market",
+            "Sore: Akihabara untuk anime, manga, electronics shopping",
+            "Malam: makan izakaya di area Ueno"
+          ]
+        },
+        {
+          "day": 4,
+          "activities": [
+            "Day trip ke Nikko (2 jam dengan JR Pass)",
+            "Kunjungi Toshogu Shrine (UNESCO World Heritage)",
+            "Jelajahi Lake Chuzenji & Kegon Falls",
+            "Kembali ke Tokyo untuk dinner di Ginza"
+          ]
+        },
+        {
+          "day": 5,
+          "activities": [
+            "Morning: Tsukiji Outer Market breakfast",
+            "Eksplor Imperial Palace East Garden",
+            "Shopping terakhir di Ginza atau Tokyo Station",
+            "Transfer ke bandara (beli oleh-oleh di airport)"
+          ]
+        }
+      ],
+      "bestTimeToVisit": "Maret-Mei (cherry blossom) atau September-November (fall foliage). Hindari Golden Week (akhir April-awal Mei) karena sangat ramai dan mahal.",
+      "tips": [
+        "Beli JR Pass sebelum berangkat (hanya bisa dibeli di luar Jepang)",
+        "Download apps: Google Maps, Hyperdia, Google Translate",
+        "Bawa cash Yen (banyak tempat belum terima kartu kredit)",
+        "Beli IC Card (Suica/Pasmo) untuk naik kereta & vending machine",
+        "Etika: jangan makan sambil jalan, antri dengan tertib, diam di kereta",
+        "Convenience store (7-11, Lawson, FamilyMart) jual makanan enak & murah",
+        "Book hotel 3-6 bulan lebih awal, terutama saat musim cherry blossom"
+      ]
+    }
+  ]
+}

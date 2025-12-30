@@ -24,17 +24,8 @@ const Header: React.FC<HeaderProps> = ({ onSearch, showSearch = true }) => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           <Link href="/" className="text-sm font-medium text-neutral-600 hover:text-neutral-900 transition-colors">Beranda</Link>
-          <div className="relative group">
-            <button className="text-sm font-medium text-neutral-600 hover:text-neutral-900 transition-colors flex items-center gap-1">
-              Kategori
-            </button>
-            <div className="absolute top-full left-0 w-48 bg-white shadow-xl border border-neutral-100 rounded-lg p-2 hidden group-hover:block transition-all transform origin-top pt-2">
-               <Link href="/category/akuntansi" className="block px-4 py-2 text-sm text-neutral-600 hover:bg-neutral-50 hover:text-neutral-900 rounded">Akuntansi</Link>
-               <Link href="/category/wisata" className="block px-4 py-2 text-sm text-neutral-600 hover:bg-neutral-50 hover:text-neutral-900 rounded">Wisata</Link>
-               <Link href="/category/legal" className="block px-4 py-2 text-sm text-neutral-600 hover:bg-neutral-50 hover:text-neutral-900 rounded">Legal</Link>
-            </div>
-          </div>
-          <a href="#tentang" className="text-sm font-medium text-neutral-600 hover:text-neutral-900 transition-colors">Tentang Kami</a>
+          <a href="#tools" className="text-sm font-medium text-neutral-600 hover:text-neutral-900 transition-colors">Tools</a>
+          <a href="#tentang" className="text-sm font-medium text-neutral-600 hover:text-neutral-900 transition-colors">Tentang</a>
         </nav>
 
         {/* Search & Mobile Menu */}
